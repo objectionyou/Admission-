@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Admission</string>
+    <string name="countdown_widget_description">Day counter, percent complete, and streak at a glance</string>
+    <string name="tasks_widget_description">Today\'s 4 tasks with tap-to-complete checkboxes</string>
+</resources>
