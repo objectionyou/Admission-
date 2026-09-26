@@ -10,12 +10,7 @@ jobs:
   extract:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Unzip project
-        run: |
-          unzip -o *.zip
-          rm -f *.zip
+      - uses: actions/checkout@
 
       - name: Commit extracted files
         run: |
